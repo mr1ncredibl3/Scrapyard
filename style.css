@@ -1,0 +1,70 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  margin: 0; 
+  height: 100vh; 
+  animation: changeBackground 10s infinite; 
+  background-size: 200% 200%;
+}
+
+.container {
+  padding: 100px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 320px;
+  max-width: 90%;
+}
+
+input {
+  width: 80%;
+  padding: 12px;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-weight: bold;
+  background-color: blue;
+  border: 2px solid blue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: blue;
+}
+h4{
+  color: black;
+}
+img{
+  size: 100%;
+}
+@keyframes changeBackground {
+  0% {
+    background: linear-gradient(45deg, red, blue);
+  }
+  25% {
+    background: linear-gradient(45deg, blue, green);
+  }
+  50% {
+    background: linear-gradient(45deg, green, yellow);
+  }
+  75% {
+    background: linear-gradient(45deg, yellow, orange);
+  }
+  100% {
+    background: linear-gradient(45deg, orange, red);
+  }
+}
+.asser{
+  text-align: center;
+}
