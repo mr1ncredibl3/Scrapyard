@@ -9,10 +9,10 @@ function checkGuess() {
         feedbackElement.innerHTML = "Congratulations! Shameezo is happy now";
         feedbackElement.style.color = "green";
     } else if (guess < randomNumber) {
-        feedbackElement.innerHTML = "Too high! Shameezo is getting mad";
+        feedbackElement.innerHTML = "Must be lower! Shameezo is getting mad";
         feedbackElement.style.color = "red";
     } else {
-        feedbackElement.innerHTML = "Too Low! Shameezo is getting mad";
+        feedbackElement.innerHTML = "Must be higher! Shameezo is getting mad";
         feedbackElement.style.color = "red";
     }
 }
